@@ -1,0 +1,1 @@
+rsync -avz ./Web/ nhathi@people.lam.fr:public_html/

@@ -1,0 +1,332 @@
+<html>
+<head>
+<title>
+Signal Versus Noise
+</title>
+</head>
+<body>
+<h1>
+Signal Versus Noise
+</h1>
+
+<p>
+There are a number of factors which affect the quality of
+photometry of star in a CCD image.
+One is the exposure time: the longer the exposure time,
+the higher the signal in a star, and so the more precise
+the measurements.
+Of course, if one exposures too long, one will saturate the 
+CCD, which ruins the measurements.
+But how long an exposure time is necessary?
+
+<p>
+The answer depends on your goal.
+If you simply want to verify that 
+an object is present at a particular location,
+you may accept a very faint, barely noticeable dot of light.
+If you want to measure the position of 
+an asteroid to an arcsecond, you would need
+a little more signal.
+If you want to make a very rough estimate
+of magnitude, to ten percent, say, then
+you might need more signal.
+And if the goal is to look for tiny variations
+in light of a variable star, you might need
+to expose long enough that the star comes
+close to the non-linear regime.
+
+<p>
+So how can you figure out the appropriate exposure
+time for a given project?
+There are two approaches:
+
+
+<p>
+<ol>
+<li> Consider this exchange from <i>Calvin and Hobbes</i>:
+  <blockquote>
+  (the family car drives past a sign, "Bridge Load Limit: 10 Tons")
+  <br>
+  <b>Calvin:</b> Dad, how do they figure out the load limit for a bridge?
+  <br>
+  <b>Dad:</b> Well, they build a bridge, and then drive heavier and
+                 heavier trucks over it until the bridge collapses.
+                 Then they re-build the bridge.
+  </blockquote>
+
+  <p>
+  You can do exactly the same thing with your astronomical observing:
+  take a series of images with increasing exposure times, and 
+  measure the object of interest on each one.  
+  The shortest exposure which provides enough precision for your
+  goal is the right length.
+
+  <p>
+  This actually isn't a bad idea if you have huge amounts of 
+  observing time.  On the other hand, if you are given just a single
+  night on a big telescope, you probably won't want to waste any
+  time taking a series of pictures, most of which turn out to be
+  useless.
+
+<p>
+<li> Calculate the <b>signal</b> from your object for a set of
+  exposure times.  There will be a number of different 
+  sources of <b>noise</b> in the image -- determine the amount
+  of noise from each and add them up.
+  The ratio of <b>signal-to-noise</b> (S/N) yields the uncertainty
+  in the measurement of stellar brightness:
+  <pre>
+
+                                     1
+      fractional  uncertainty  =   -----
+                                    S/N
+  </pre>
+  So, for example, if the S/N ratio is 50, the photometry will 
+  have an uncertainty of 0.02, which is approximately 0.02 magnitudes.
+</ol>
+
+<p>
+<hr>
+<p>
+<h4>
+Source of signal
+</h4>
+<p>
+There is only one source of signal from a star:
+the light of the star itself.
+If the star causes <b>N(star)</b> photons 
+to strike the CCD chip during the exposure,
+and all of them knock free one electron,
+then the image should have <b>N(star)</b> electrons.
+That's the signal.
+
+
+<p>
+For the standard astronomical passbands,
+there are equations which 
+give the number of photons per second
+collected by a telescope of a particular size
+from a star of a particular magnitude.
+A good source of these zero-point fluxes is
+Allen's <i>Astrophysical Quantities</i>.
+Some additional references are collected at the end of today's lecture.
+I use these values:
+<pre>
+  Passband     photons/sec/cm^2 
+              from star of mag 0
+---------------------------------
+    U            550,000
+    B            391,000
+    V            866,000
+    R          1,100,000
+    I            675,000
+</pre>
+
+<p>
+<blockquote>
+  Exercise:
+  <ol>
+  <li> How many photons should strike a CCD in a
+           15-second exposure with the RIT telescope through the V filter
+           of a star with magnitude V=13?
+  </ol>
+
+</blockquote>
+
+<p>
+<hr>
+<p>
+<h4>
+Sources of noise
+</h4>
+<p>
+There are three main sources of noise for simple
+aperture photometry on a CCD:
+shot noise from the star itself,
+shot noise from the background,
+and readout noise from the CCD.
+Let's consider each in turn.
+
+<p>
+<ol>
+<li> <b>Noise from the star:</b>
+    The star produces photons in a random Poisson process,
+    so that there are random variations in the number of 
+    photons which strike the chip each second.
+    The size of these random variations is simply the
+    square root of the number of photons:
+   <pre>
+
+        noise(star)  =  sqrt of number of photons from star
+
+                     =  sqrt[ N(star) ]
+   </pre>
+
+<p>
+<li> <b>Noise from the background:</b>
+    In aperture photometry, one adds up the light from all the pixels
+    within an aperture; that light is a combination of photons
+    from the star and photons from the sky near the star.
+    One then subtracts the contribution from the sky within
+    the aperture, leaving only the light from the star.
+
+    <p>
+    However, just as the number of photons from a star varies randomly
+    according to Poisson statistics, so does the number of photons
+    from the sky.  
+    There is always some uncertainty in the amount of background
+    light subtracted from the aperture.
+    The noise due to this random variation is 
+   <pre>
+        noise(sky)   =  sqrt of number of photons from sky
+
+                     =  sqrt[ N(sky)  ]
+   </pre>
+
+    We can break this down a bit further: to calculate the sky
+    contribution, we determine a local sky level per pixel,
+    and then multiply by the number of pixels within the aperture.
+   <pre>
+            N(sky)   =  (electrons per pixel from sky) * (number of pixels)
+   </pre>
+    So we can write the noise from the sky as
+   <pre>
+        noise(sky)   =  sqrt[ N(sky per pixel) * npix ]
+   </pre>
+
+<p>
+<li> <b>Readout noise in the CCD:</b>
+
+    The CCD electronics do not measure perfectly the amount of
+    charge in each packet of electrons.
+    They add a little bit of noise as they perform the 
+    measurement process.
+    Astronomers call this <b>readout noise</b>,
+    and always express it in units of electrons.
+    One can measure it by looking at a very short dark image:
+    calculate the standard deviation of counts in a 
+    box of 20x20 or 30x30 pixels, then multiply by the gain
+    of the chip:
+   <pre>
+                                           electrons 
+      readnoise R    =  stdev(counts)  *  ------------
+                                             count 
+   </pre>
+    <p>
+    In our calculations of signal-to-noise, we need to convert
+    from the stdev to the corresponding variance:
+   <pre>
+        variance     =  (stdev * stdev)
+   </pre>
+    and then add up the variance from all the pixels which fall
+    inside the photometric aperture.  The result is
+   <pre>
+
+     noise from CCD  =     (R*R)  * npix
+   </pre>
+
+</ol>
+
+<p>
+We can add all three sources of noise together: 
+the way to do it is to add up all the electrons they produce,
+and then again appeal to Poisson statistics to find
+the noise.
+<pre>
+    total noise      =   sqrt [ N(star)  +  N(sky)*npix  +  (R*R)*npix  ]
+</pre>
+
+
+<p>
+<hr>
+<p>
+
+<h4>
+Calculating Signal to Noise Ratio
+</h4>
+<p>
+In order to find the S/N ratio, we simply divide the total signal
+by the total noise.
+
+<pre>
+        signal                         N(star)
+        ------  =   -------------------------------------------------
+         noise       sqrt [ N(star)  +  N(sky)*npix  +  (R*R)*npix  ]
+</pre>
+where
+<pre>
+          N(star)           is the number of electrons from the star
+                                   which fall within the aperture
+ 
+          N(sky)            is the number of electrons per pixel
+                                   due to the sky background
+
+          R                 is the readout noise, in electrons
+
+          npix              is the number of pixels in the aperture
+</pre>
+
+<p>
+<blockquote>
+
+ Exercise:
+ <ol start=2>
+ <li> Look in the directory <tt>richmond/apr11</tt> for 
+         a cleaned image of Lictora called <tt>1107b.001</tt>.
+         Display the image.
+ <li> Using an aperture radius of 5 pixels,
+         measure the flux of the asteroid (which is near row=122, col=274).
+ <li> Calculate the signal from the asteroid.
+ <li> Calculate the noise in the measurement.
+ <li> Calculate the signal-to-noise ratio.
+ <li> Estimate the uncertainty, in magnitudes, of a magnitude
+         measurement of the asteroid from this image.
+ <li> Use the 
+         <a href="http://stupendous.rit.edu/richmond/signal.shtml">
+
+         on-line signal-to-noise calculator</a>
+         to perform the same calculation.
+         The measurements were made at an airmass of X=1.2.
+ </ol>
+</blockquote>
+
+
+<p>
+<hr>
+<p>
+<h4>
+For more information
+</h4>
+
+<ul>
+
+<li> <a href="http://hotel04.ausys.se/pausch/comp/radfaq.html">
+         Radiometry and photometry in astronomy</a>
+<li> <a
+href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1989PASP..101..616H&db_key=AST">
+         Two-dimensional aperture photometry - 
+         Signal-to-noise ratio of point-source observations
+            and optimal data-extraction techniques </a>
+         a paper by Steve Howell from PASP, 101, 616 (1989).
+         A good introduction to the subject of signal-to-noise
+         calculations with CCDs.
+<li> <a
+href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1991PASP..103..122N&db_key=AST&high=3c321cbf8301567">
+         Signal-to-noise considerations for sky-subtracted CCD data </a>
+
+         a paper by Michael Newberry from PASP, 103, 122 (1991).
+         It includes details neglected by other authors.
+<li> <a
+href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1987PASP...99..191S&db_key=AST">
+         DAOPHOT -- A computer program for crowded-field stellar photometry
+</a>
+         a paper by Peter Stetson from PASP, 99, 191 (1987).
+         It describes the DAOPHOT program, going through many processing
+         steps in great detail.
+</ul>
+<br>
+<b>Note:</b> Source website http://spiff.rit.edu/classes/phys559/lectures/signal/signal.html 
+
+</body>
+</html>
+
