@@ -7,13 +7,13 @@
 3.15 pm reached BWI in Honda CR-V
 	-- NPH to long-term parking A, came back to terminal by shuttle
 3.45 pm check-in and security
-4.00 pm reached gate but Nashville flight was delayed by ~2 hours, will miss SEA connection
+4.00 pm reached gate but Nashville flight was delayed by ~2 hours, will miss Seattle connection
 	-- after nearly 1.5 hours, we were re-booked on (delayed) Denver flight and then from DEN to SEA
 6.00 pm depart Southwest Airline flight to Denver 
     -- flight time ~3.5 hours
 7.30 pm reached Denver local time (2 hours behind)
     -- long layover ~3 hours
-    -- ate dinner at Burgers, Onion rings, Fries, Pizza	
+    -- ate dinner at DEN airport - Burgers, Onion rings, Fries, Pizza	
 10.30 pm depart Southwest Airline flight to Seattle (SEA)
     -- flight duration ~2.5 hours 
 
@@ -139,7 +139,7 @@
 5.30 am reached airport 
 	-- Dkaki left for Pittsburgh via Chicago on American
 6.55 am depart Southwest Airline flight to Baltimore (non-stop)
-3.00 pm reached Baltimore
+3.00 pm reached Baltimore local time (3 hours ahead of Seattle)
 	-- ate quick lunch at Subway on the airport
 	-- NPH/HNH got car from long term A parking lot
 5.00 pm reached home	
