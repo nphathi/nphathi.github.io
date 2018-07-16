@@ -1,3 +1,3 @@
 git add .
-git commit -m "update memories"
+git commit -m "pages updated"
 git push -u origin master
