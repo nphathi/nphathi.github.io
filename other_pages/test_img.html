@@ -1,0 +1,21 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Demo</title>
+    </head>
+    <body onload="startTime();">
+    <img id="img1" />
+    <script>
+    var imgArray = new Array("images/ers_image_1.jpg","images/ers_image_2.jpg","images/ers_image_3.jpg");
+    var imgCount = 0;
+    function startTime() {
+    if(imgCount == imgArray.length) {
+    imgCount = 0;
+    }
+    document.getElementById("img1").src = imgArray[imgCount];
+    imgCount++;
+    setTimeout("startTime()", 5000);
+    }
+    </script>
+    </body>
+    </html>
