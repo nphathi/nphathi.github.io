@@ -1,0 +1,5 @@
+ 
+If you want to install a PR and test, you can use following command
+(this is for 'slitlessutils' and 'PR 53')
+
+ pip install git+https://github.com/spacetelescope/slitlessutils.git@refs/pull/53/merge
