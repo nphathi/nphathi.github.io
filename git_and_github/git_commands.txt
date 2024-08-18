@@ -1,0 +1,29 @@
+git config --global user.name "nphathi"
+git config --list
+
+git remote show origin
+
+git remote update
+
+git branch -a
+git branch -r
+git branch -l
+git branch -vv
+
+
+git show-ref
+
+git push --force origin main
+
+After renaming 'master' to 'main' in remote repo
+
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+
+
+
+for error -- RPC failed; HTTP 400 curl 22 The requested URL returned error: 400 Bad Request
+
+git config http.postBuffer 524288000
