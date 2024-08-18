@@ -1,0 +1,26 @@
+example to forward old link 
+https://people.lam.fr/hathi.nimish/CV_&_Publications_files/hathi_cv.pdf
+to new one
+https://nphathi.github.io/CV_&_Publications_files/hathi_cv.pdf
+
+
+In the old main folder - in this case 'public_html'
+create directory "CV_&_Publications_files"
+inside this directory create sub-directory "hathi_cv.pdf"
+inside this directory create an index.html file with following information
+
+
+<html>
+
+<head>
+<meta
+HTTP-EQUIV="REFRESH" content="0; url=https://nphathi.github.io/CV_&_Publications_files/hathi_cv.pdf">
+</head>
+        
+</html>
+
+
+so now whenever somebody visits 
+https://people.lam.fr/hathi.nimish/CV_&_Publications_files/hathi_cv.pdf 
+they will be forwarded to 
+https://nphathi.github.io/CV_&_Publications_files/hathi_cv.pdf

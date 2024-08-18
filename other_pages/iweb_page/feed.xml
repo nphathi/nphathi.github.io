@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:40FC34CB-A229-441B-9BFC-8780BCDB6EB1</id>
+ <title>Page list Atom feed</title>
+ <updated>2013-08-19T15:55:10-07:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:9517F2BF-B940-42F1-B879-AF5E0954C3E5</id>
+  <title>Intro</title>
+  <title xmlns="urn:iweb:">Intro</title>
+  <in-navbar xmlns="urn:iweb:">9517F2BF-B940-42F1-B879-AF5E0954C3E5</in-navbar>
+  <link rel="alternate" href="Intro.html"/>
+  <updated>2013-08-19T15:55:10.001-07:00</updated>
+  <content>Intro</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:DEBAB62E-F34C-4022-8F71-103290F9A6D4</id>
+  <title>Research</title>
+  <title xmlns="urn:iweb:">Research</title>
+  <in-navbar xmlns="urn:iweb:">DEBAB62E-F34C-4022-8F71-103290F9A6D4</in-navbar>
+  <link rel="alternate" href="Research.html"/>
+  <updated>2013-08-19T15:55:10.002-07:00</updated>
+  <content>Research</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:3FF9CD08-3045-42F6-B40F-F620134592C1</id>
+  <title> CV &amp; Publications</title>
+  <title xmlns="urn:iweb:"> CV &amp; Publications</title>
+  <in-navbar xmlns="urn:iweb:">3FF9CD08-3045-42F6-B40F-F620134592C1</in-navbar>
+  <link rel="alternate" href="CV_%26_Publications.html"/>
+  <updated>2013-08-19T15:55:10.003-07:00</updated>
+  <content> CV &amp; Publications</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:CB56329D-7E48-4EAA-A7B9-D43268075D2C</id>
+  <title>Links</title>
+  <title xmlns="urn:iweb:">Links</title>
+  <in-navbar xmlns="urn:iweb:">CB56329D-7E48-4EAA-A7B9-D43268075D2C</in-navbar>
+  <link rel="alternate" href="Links.html"/>
+  <updated>2013-08-19T15:55:10.004-07:00</updated>
+  <content>Links</content>
+ </entry>
+</feed>

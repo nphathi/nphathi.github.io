@@ -1,0 +1,4 @@
+If needed you can use 'force push'
+(just be careful that local copy is the most recent copy)
+
+git push origin master --force

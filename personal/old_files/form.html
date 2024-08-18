@@ -1,0 +1,66 @@
+<html>
+	<head>
+	<title>Form</title>
+	</head>
+
+	<Body background="../graphics/flower_bkg2.jpg" Text Black>
+
+		<FORM method="post" action="http://cgi.asu.edu/cgi-bin/mail.cgi">
+		<INPUT type="hidden" name="sendto" value="Nimish@asu.edu">
+		<INPUT type="hidden" name="subject" value="Guestbook Mail">
+		<INPUT
+type="hidden" name="location" value="http://www.public.asu.edu/~nimish/personal/thanks.html">
+
+		<center><H2><U>
+		! My Guestbook !
+		</U></H2></center>
+		<br>
+
+		<blockquote>
+		<blockquote>
+		<blockquote>
+
+		<P>Name:<br>
+		<Input type="text" size="35" name="Full_Name"></P>
+
+		<P>E-mail:<br>
+		<Input type="text" size="35" name="Email"></P>
+
+		<P>Homepage URL:<br>
+		<Input type="text" size="45" name="Homepage"></P>
+
+		<P>
+		<valign=center>Enter any Comments or Suggestions:<br> 
+		<Textarea rows="5" cols="45" name="Comments" wrap="physical">
+		</Textarea>
+		</P>
+
+		<P>
+		How did you find us ?
+		<select name="How did you find us ?" size="1">
+		<option value="Friend">Friend</option>		
+		<option value="Search Engine">Search Engine</option>
+		<option value="Email">Email</option>
+		<option value="Other">Other</option>
+		</select>
+		</P>
+
+		<P>
+		How useful was this website ?
+		<Input type="radio" value="Very Useful" checked name="How useful was this website ?">Very Useful
+		<Input type="radio" value="Moderately Useful" checked name="How useful was this website ?">Moderately Useful
+		<Input type="radio" value="Not Useful" checked name="How useful was this website ?">Not Useful
+		</P>
+
+		</blockquote>
+		</blockquote>
+		</blockquote>
+
+		<P><center>
+		<Input type="submit" value="Click here to Submit Form">
+		<Input type="reset" value="Click here to Reset Form">
+		</center></P>
+
+		</Form>
+	</Body>
+</html>		

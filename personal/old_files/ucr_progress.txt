@@ -1,0 +1,288 @@
+# UCR starting Sep. 2008
+
+*** Sep 2008
+    	--> Paperwork - GLACIER
+    	--> STScI visit for WFC3 pipeline (5 days)
+    	--> z~1 spirals paper updated and re-submitted
+    	--> z~1 spirals paper accepted (PI)
+    	--> Read / comments on Russ's AAS abstract
+
+*** Oct 2008
+    	--> Working on dissertation summary
+	--> Published PASP dissertation summary (PI)
+    	--> Helped BM on ACS cluster files
+    	--> Temporary office and computer/ethernet set-up
+    	--> Updating Spec-z catalogs for CDFS/PEARS 
+    	--> Working on Hubble application 
+    
+*** Nov 2008
+    	--> Visited Pasadena for GOODS-N data (1 day)
+	--> Visited LakeArrowhead for CfAO retreat (1 day)
+    	--> Talk at UCR
+    	--> Submitted Hubble application
+    	--> Got IDL / gave external HD info to BM
+    	--> Worked on TFIT/FIREWORKS/MUSIC catalogs for BBGs
+    	--> Visa paperwork submitted
+    	--> Finkelstein et al. paper accepted (Co-I)
+    	--> Started working on MOIRCS GOODS-N NIR data
+    	--> Read / comments on Amber's PEARS paper
+
+*** Dec 2008
+    	--> H-1B/H-4 Visas approved
+    	--> Wanted to attend PHAT workshop at JPL but security problems
+    	--> Added new GOODS-N Spec-z tables
+    	--> Read / comments on Nor's PEARS paper
+    	--> Read / comments on Russ's merger paper
+    	--> Rogier submitted NIC Cornograph proposal for HST Cy16B
+    	--> Proctor BM class exam
+    	--> Commencement trip to PHX (3 days)
+    	--> COSMOS Sersic catalog from Roger Griffith to Russ
+    	--> Continue working on MOIRCS data
+
+*** Jan 2009
+    	--> AAS meeting at Long Beach (2 days; 3 Co-I abstracts)
+    	--> Moved to new office 2115    
+   	--> Rhoads et al. paper accepted (Co-I)
+	--> Pirzkal et al. paper accepted (Co-I)
+    	--> ERS APT -- new update
+    	--> UC Posdoc Union member?
+    	--> Journal Club
+        --> Continue working on MOIRCS data
+
+*** Feb 2009  
+    	--> PEARS Telecons started
+	--> Helping SMU student (Jenna) in z=6 SB profile of simulated objects  
+     	--> Visited UC Davis to give Seminar (1 day)	
+	--> Read / comments on Ignacio's PEARS paper
+	--> Updated GOODS-N and CDFS Spec-z catalogs 
+	--> PEARS catalog and object spectrum for Roger Griffith
+	--> Two dissertation copies (with coil binding) to ASU 
+	--> Visited Pasadena for GOODS-N data (1 day)	
+	--> Continue working on MOIRCS data 
+
+*** Mar 2009
+	--> Updated GLACIER with H-1B information
+	--> Updated GOODS Spec-z/Phot-z catalogs
+	--> PEARS match redshifts, list of papers/posters and webpage
+	--> Little help on Keck proposal (Co-I?) -- basically thru emails
+	--> Journal Club
+	--> Completed MOIRCS J and K reduction -- data uploaded on a webpage
+
+*** Apr 2009
+  	--> Completed MOIRCS H reduction
+	--> Mosaic of MOIRCS chip1+chip2 and full MOIRCS GOODS-N field
+	--> MOIRCS/WIRCAM catalog generation and comparison
+	--> ERS APT -- layout plot -- add NB Parallels 
+	--> Working on possible ADP proposal
+	--> Xia et al. paper accepted (Co-I)
+
+*** May 2009
+	--> Gave 11pg version to Bahram -- PI not possible becoz of time/paperwork
+	--> ADP proposal by Bahram et al. (Co-I)
+	--> Helping Jenna for z=6 simulated profiles
+	--> SB measurements for Sangeeta
+	--> WFC3/ERS telecon
+	--> Visited Florida for Shuttle Launch (4 days)
+	--> Visited Hawaii for COSMOS Y-band data reduction (3 days)
+	--> Journal Club
+	--> ERS APT exptime comparison -- with par and no par
+	--> Preparing/helping on MOIRCS data -- for TFIT process
+
+*** Jun 2009
+	--> Journal Club (on FL trip)
+	--> Re-run reduction scripts -- helping in MOIRCS TFIT process
+	--> Appointment letter update to Aug. 2010
+	--> New iMac -- 4GB RAM + 1TB Hard Drive + 2.66GHz Intel Duo Processor
+	--> Set-up new computer
+	--> WFC3 paper document -- synphot UV filters and models for z~2-3 dropouts
+	--> Two telecons -- Rogier (WFC3) and Sangeeta (V-drops PEARS) 
+	--> Straughn et al. paper accepted (Co-I)
+	--> WFC3 telecon -- models of z~8 galaxies for filter (098 or 105) debate
+	--> COSMOS Y-band reduction -- completed 20080523
+
+*** Jul 2009
+	--> ERS APT updated (v7.0) submitted -- added ACS NB-Par + dither changes
+	--> COSMOS Y-band data from archive -- file format work 
+	--> COSMOS Y-band data -- completed 20090220
+	--> Helped BM on GOODS U-band data
+	--> ERS APT updated (v8.0) submitted -- grism pointing + dither changes
+	--> Re-run of COSMOS Y-band data -- 20090220
+	--> Got observation log for 20090221 & 20090224 
+		-- ONLY calibration files -- NO science data
+	--> COSMOS Y-band data -- completed 20090222, 20090223
+	--> Helped Hooshang with computer set-up/IDL 
+	--> Helping Jenna for z=6 simulated profiles
+	--> Updated CDFS Photz catalog by adding MUSIC v2 -- email to Amber
+	--> WFC3 telecon -- SMOV, WFC3 science and STScI visits
+	--> Helped Casey (REU student) with COSMOS catalogs
+	--> Working on MOIRCS data (catalogs+plots) - combining MOIRCS and WIRCAM
+	--> Peter at UCR -- gave disk with COSMOS data -- talk about MOIRCS
+
+*** Aug 2009
+	--> Journal Club
+	--> Helping Marc (UCSD) about SB profiles
+	--> Working on IDL scripts for LF
+	--> Test 'calwf3' run on UVIS and IR data
+	--> Selecting high-z objects in GOODS-N --> email plots to BM,PC
+
+	--> Trip to India from 13th Aug to 13th Sept.
+
+*** Sep 2009
+	--> STScI visit for WFC3 ERS data (5 days)
+	--> Working on Haojing's WFC3/IR HUDF paper
+	--> Helped Hooshang with IDL setup -- license manager
+	--> Working on WFC3/IR ERS data -- getting it and correcting flts
+	--> Working on SEDs to get color selection criteria for UV drops
+	--> Investigating z- and J-drops in GOODS-N using WIRCAM data 
+
+*** Oct 2009
+    	--> Ferreras et al. paper accepted (Co-I)
+	--> Working on SEDs and color selection -- BC03 and KC96 models
+	--> Helping Amber on ERS grism data reduction
+  	--> Helping Haojing on ERS IR data pre-processing 
+	--> ASU visit for WFC3 ERS data (4 days)
+	--> Helping Rogier with figures for his data paper
+	--> Completed color selection for UV dropouts
+	--> Helping Kimberly (high school student) and Hooshang
+
+*** Nov 2009
+    	--> Working on Hubble/Giaconni fellowship applications -- submitted
+	--> Working on Carnegie fellowship application -- submitted
+	--> Working on UV dropouts -- plots for SOC meeting 
+	--> Checking different sextractor parameters to get better selection
+	--> Helping/telecon on NSF and Multi-cycle grism proposals
+	--> Created webpage for Bahram
+	--> STScI visit for WFC3 SOC meeting (3 days) -- paper progress talk
+	--> HST MCT proposal by Ferguson et al. -- GOODS (Co-I)
+	--> Working on STScI staff application -- submitted
+	--> Continue to help Hooshang with IDL
+
+*** Dec 2009
+    	--> Working on CGE fellowship application -- submitted
+	--> AAS poster abstract for ERS UV-dropouts -- submitted
+	--> Working on AAS poster -- LFs, figures, format etc
+	--> Read / comments on Haojing's ERS paper
+	--> Journal Club
+	--> UV-dropouts info to Russ
+	--> Working on Caltech postdoc application -- submitted
+	--> Working on STScI postdoc application -- submitted
+	--> Working on Melbourne postdoc application -- submitted
+	--> Working on Toronto fellowship application
+	--> Poster draft (v1.0) to all Co-Is for comments
+	--> Working on Dunlap fellowship application -- submitted
+	--> Updated poster (v2.0) -- Final poster version -- printed
+
+*** Jan 2010
+	--> AAS meeting at Washington DC (4 days; 1 PI + 6 Co-I abstracts)
+	--> WFC3 ERS2 press release -- data credit includes NPH
+	--> Reading/comparing Bouwens etal and Bunker etal papers for Haojing
+	--> Updated CDFS Specz catalog with VLT/VIMOS v2 redshifts
+	--> Updated F225W-dropout selection -- v1 z=2-3 LF estimates
+	--> Working on text for the UV dropouts paper 
+	--> Helping Hooshang and Kimberly (high school student)
+	--> Working on Edinburgh fellowship application -- submitted
+	--> Working on Steward postdoc application -- submitted
+	--> HST MCT proposals GOODS+Faber et al. -- Accepted (Co-I) -- 902 orbits
+
+*** Feb 2010
+	--> UV-dropouts ERS paper (v1.0) draft to SOC
+	--> Updated photoz comparison with Seth's redshifts
+	--> Helping Hooshang on BBGs/IDL
+	--> Working on Wisconsin postdoc application -- submitted
+	--> Started working on how to do incompleteness for LFs
+	--> ASU telecon about HST WFC3 grism proposal
+	--> Interview with Prof. Mould/Prof. Webster at Melbourne 
+	--> Interview with Prof. Dunlop/Prof. McLure at Edinburgh
+	--> Working on Irvine postdoc application -- submitted
+	--> Helping/reading/comments on various Cy18 proposals
+	--> Working on Washington postdoc application -- submitted
+	--> HST proposals submitted -- 6 Co-I proposals
+
+*** Mar 2010
+    	--> Working on estimating P(m,z) for UV-drops LFs
+	--> WFC3 ERS telecon and MCT/UV telecon
+	--> Helped Bahram on Keck proposal -- submitted
+	--> Helping Hooshang with catalogs/IDL
+	--> Journal Club
+	--> Quick comments on figures to Amber for her paper
+	--> Updated GOODS-N Specz catalog with Reddy etal redshifts
+	--> VLT/HAWK-I proposal submitted -- Co-I with other MCT people
+	--> Optimizing P(m,z) scripts and running continously
+
+*** Apr 2010
+    	--> Completed 100 P(m,z) runs for each redshift bin
+	--> Wilkins summary for Haojing -- Postage stamps for Bahram
+	--> UV-dropouts ERS paper (v2.0) draft to SOC -- complete draft
+	--> Read/comments to Amber on her ERS paper	
+	--> Helping Hooshang with BC03 set-up
+	--> Redshift comparison (z~1 spirals) plot for Sangeeta  
+	--> Working on Geneva postdoc application -- submitted	
+	--> Working on Cambridge(IoA) postdoc application -- submitted
+	--> Got Archived GOODS data -- generated file of coordinates for polygons
+	--> Updated ERS layouts with polygon
+	--> Working on South Carolina postdoc application -- submitted
+	--> Working on JHU-MCT postdoc application -- submitted
+	--> Working on NRAO postdoc application -- submitted
+	--> WFC3 ERS telecon and MCT grism telecon
+	--> UV-dropouts paper -- applying Rogier, Bob, Seth's comments 
+	--> UV-dropouts ERS paper (v3.0) draft to SOC -- final draft
+	--> Started generating figures for MOIRCS paper
+	--> UV-dropouts ERS paper -- submitted
+
+*** May 2010
+    	--> Calculating sky background in UVIS and IR for Rogier -- done
+	--> Submitted abstract for 'Science with HST' meeting in October
+	--> Helping Hooshang on K-selected/TFIT North catalogs
+	--> Interview with Prof. Schaerer at Geneva
+	--> WFC3 ERS telecon
+	--> Generating full GOODS-N images and rms maps 
+	--> Helping Bahram on MCT ADP proposal (Co-I) -- submitted
+	--> Generating GOODS-N K-selected catalogs (with BViz) 
+	--> Talk to Pat McCarthy for Carnegie job
+	--> Read/comments to Rogier on his data/counts paper 
+	--> Visited Carnegie Observatory at Pasadena to meet Pat
+	--> Helping Bahram (computer) and Hooshang (sextractor)
+	--> Generating plots for MOIRCS paper (ncounts, mag_compare)
+	--> Generating plots  (RA-Dec compare, completeness)
+	--> Updated MOIRCS webpage
+	--> Helping Hooshang on BC03 and simulations
+	--> Carnegie Observatories Job Offer
+
+*** Jun 2010
+    	--> Geneva Observatory Job Offer -- declined
+	--> Working (figures/outline text) on MOIRCS/WIRCam data paper
+	--> Generating full GOODS-S images and rms maps
+	--> Referee's report on UV-dropouts -- started working on it
+	--> Accepted Carnegie Job Offer -- starting 1st Sept. 2010
+	--> UV-dropouts paper -- working on figures, reply, text
+	--> Swara visited Riverside -- Pasadena pick-up and drop-off
+	--> Telecon with Sangeeta, Ignacio etal for z~1 spirals
+	--> Papers for H-1B/H-4 (Carnegie) to Adam Green Lawyer	 
+	--> UV-dropouts paper -- draft report+paper to CoIs
+	--> Generated TMT poster for Bahram
+	--> Comments to Steve on his ACS Par paper
+	--> VLT/HAWK-I proposal accepted (Co-I) -- 208 hours over 2 years
+
+*** Jul 2010
+    	--> UV-dropouts paper -- worked on Bob and Rogier's comments
+	--> UV-dropouts paper -- resubmitted on 13th.
+	--> Comments to Sangeeta on her Ly-alpha size paper
+	--> Helping Hooshang -- BC03, IDL, SExtractor, Science
+	--> Working on GOODS-N NIR data paper
+	--> Graded PEARS emission lines for Nor's LF paper 
+	--> GOODS-N NIR data paper v0.8 to 5 CoIs
+	--> Yan et al. paper accepted (Co-I)
+	--> UV-dropouts paper accepted (PI)
+        --> Comments to Steve and Michael on their ERS papers
+        --> Started working on GOODS-N high-z selection
+	--> ERS and CANDELS dwg telecons
+        --> Working on CANDELS data tests -- getting data, softwares
+
+*** Aug 2010 
+    	--> ERS and CANDELS dwg telecons
+	--> UV-dropouts paper -- proofs and page charges
+	--> Selecting GOODS-N high-z galaxies -- BC03 and Sextractor
+	--> Working on CANDELS astrometry tests -- running md script
+	--> Helping Hooshang -- BBGs selection
+	--> Last days ... returned keys on 30th 
+	--> left UCR and joined OCIW on 1st Sept.
