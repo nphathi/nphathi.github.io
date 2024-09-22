@@ -1,3 +1,17 @@
+
+=======
+repo -- nphathi.github.io
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://nphathi: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@github.com/nphathi/nphathi.github.io.git
+git push -u origin main
+
+----------
+git pull origin main --rebase
+
+
 git config --global user.name "nphathi"
 git config --list
 
