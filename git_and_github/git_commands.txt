@@ -1,7 +1,3 @@
-
-<<<<<<< HEAD
-=======
-repo -- nphathi.github.io
 =======
 repo -- nphathi.github.io
 When generating new token select 'repo' option
@@ -10,38 +6,21 @@ So the steps are:
 1) create a personal token from Github, 
 2) put :<your-personal-token>@ in ~/.git-credentials, 
 3) run git config --global credential.helper store
->>>>>>> 6902dbe (first commit)
 
 git init
 git add .
 git commit -m "first commit"
-<<<<<<< HEAD
-<<<<<<< HEAD
-git remote add origin https://nphathi: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@github.com/nphathi/nphathi.github.io.git
-=======
-git remote add origin https://nphathi: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@github.com/nphathi/nphathi.github.io.git
->>>>>>> 69a408c (first commit)
-git push -u origin main
-
-----------
-git pull origin main --rebase
-<<<<<<< HEAD
-
-=======
-git config pull.ff only
-git rebase --continue
->>>>>>> 69a408c (first commit)
-=======
 git remote remove origin
 git remote add origin https://nphathi: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@github.com/nphathi/nphathi.github.io.git
 
 git push -u origin main
 
+----------
+
 git pull origin main --rebase
 git config pull.ff only
 git rebase --continue
 
->>>>>>> 6902dbe (first commit)
 
 git config --global user.name "nphathi"
 git config --list
