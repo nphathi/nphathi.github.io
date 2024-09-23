@@ -10,11 +10,15 @@ So the steps are:
 git init
 git add .
 git commit -m "first commit"
-git remote remove origin
-git remote add origin https://nphathi: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@github.com/nphathi/nphathi.github.io.git
+git remote add origin https://github.com/nphathi/nphathi.github.io.git
+git push -u origin main
+
+
+git remote add origin https://nphathi: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@github.com/nphathi/nphathi.github.io.git
 
 git push -u origin main
 
+git remote remove origin
 ----------
 
 git pull origin main --rebase
