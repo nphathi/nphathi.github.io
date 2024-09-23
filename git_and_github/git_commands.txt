@@ -1,6 +1,8 @@
 =======
 repo -- nphathi.github.io
 When generating new token select 'repo' option
+New token (9/22/2024) -- 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
+
 
 So the steps are: 
 1) create a personal token from Github, 
