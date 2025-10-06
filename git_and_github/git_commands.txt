@@ -22,6 +22,20 @@ git push -u origin main
 
 git remote remove origin
 ----------
+# for git pull ... error
+
+1. Merge the Remote Changes:
+This is the most common and often simplest solution. Fetch the latest changes.
+
+    git fetch origin
+Merge the remote branch into your local branch:
+
+    git merge origin/main # Replace 'main' with your branch name if different
+    
+Resolve any merge conflicts: If conflicts occur, Git will mark them in the affected files. You need to manually edit these files to resolve the conflicts, then git add the resolved files and git commit the changes.
+
+----------
+
 
 git pull origin main --rebase
 git config pull.ff only
